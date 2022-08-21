@@ -1,0 +1,18 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("cartishub", "DarkTheme")
+
+local mainstuff = Window:NewTab("mainstuff")
+local MainStuff = mainstuff:NewSection("MainStuff")
+
+MainStuff:NewButton("Silent", "silent aim", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Stefanuk12/ROBLOX/master/Games/Da%20Hood/SilentAimAimLock.lua"))()
+
+end)
+
+MainStuff:NewButton("god mode", "no anims, make sure to execute fast!", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/cypherdh/GodMode-V3/main/script"))()
+end)
+
+MainStuff:NewButton("ShazamFly (not mine)", "Makes U fly like Shazam! (not mine)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/DaHoodScripts/Shitty-nigger-get-cracked/main/w"))()
+end)
